@@ -24,7 +24,7 @@ jobs:
     - run:
         name: run lint
         command: |
-          . hello/bin/activate
+          .hello/bin/activate
           make lint
 workflows:
   main:
